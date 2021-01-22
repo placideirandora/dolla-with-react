@@ -3,7 +3,7 @@ import svgTwo from '../../images/svg-2.svg';
 import svgThree from '../../images/svg-3.svg';
 
 export const homeObjOne = {
-  infoId: 'about',
+  id: 'about',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -21,7 +21,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  infoId: 'discover',
+  id: 'discover',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
@@ -39,7 +39,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  infoId: 'signup',
+  id: 'signup',
   lightBg: true,
   lightText: false,
   lightTextDesc: false,

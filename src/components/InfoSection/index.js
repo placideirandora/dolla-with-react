@@ -17,6 +17,7 @@ import {
 import { Button } from '../ButtonElement';
 
 const InfoSection = ({
+  id,
   lightBg,
   imgStart,
   topLine,
@@ -33,7 +34,7 @@ const InfoSection = ({
 }) => {
   return (
     <>
-      <InfoContainer id='info' lightBg={lightBg}>
+      <InfoContainer id={id} lightBg={lightBg}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
             <Column1>
