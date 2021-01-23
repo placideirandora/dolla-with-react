@@ -22,8 +22,13 @@ import {
   SocialIcons,
   SocialIconLink,
 } from './FooterElements';
+import { animateScroll as scroll } from 'react-scroll';
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <>
       <FooterContainer>
@@ -68,9 +73,12 @@ const Footer = () => {
 
           <SocialMedia>
             <SocialMediaWrap>
-              <SocialLogo to='/'>dolla</SocialLogo>
+              <SocialLogo to='/' onClick={toggleHome}>
+                dolla
+              </SocialLogo>
               <WebsiteRights>
-                &copy; {new Date().getFullYear()} All Rights Reserved.
+                &copy; {new Date().getFullYear()} Placide IRANDORA. All Rights
+                Reserved.
               </WebsiteRights>
               <SocialIcons>
                 <SocialIconLink
