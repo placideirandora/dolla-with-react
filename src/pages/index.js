@@ -6,8 +6,8 @@ import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
 import {
   homeObjOne,
-  homeObjThree,
   homeObjTwo,
+  homeObjThree,
 } from '../components/InfoSection/data';
 import Services from '../components/Services';
 import Footer from '../components/Footer';
