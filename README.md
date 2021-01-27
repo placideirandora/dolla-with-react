@@ -1,4 +1,4 @@
-# Dolla (React)
+# DOLLA (React)
 
 A banking web application
 # Getting Started with Create React App
