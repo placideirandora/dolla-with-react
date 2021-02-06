@@ -11,7 +11,7 @@ A fully responsive landing page for a financial company.
 
 ### Clone The Project
 
-git clone https://github.com/placiderapson/dolla-with-react
+`git clone https://github.com/placiderapson/dolla-with-react`
 
 ### Available Scripts
 
